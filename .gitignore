@@ -1,0 +1,21 @@
+# App repos are cloned here as siblings, each with its own git history
+/orcavia/
+/orcavia-ui/
+/orcavia-app/
+
+# Secrets and personal settings
+.mcp.json
+.env
+.env.*
+!.env.example
+*.local
+.claude/settings.local.json
+*.pem
+*key*.json
+credentials*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
